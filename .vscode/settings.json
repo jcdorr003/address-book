@@ -1,0 +1,28 @@
+{
+  "editor.tabSize": 2, // Match Prettier settings
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  },
+  "files.insertFinalNewline": true,
+  "window.title": "${activeEditorMedium}${separator}${rootName}",
+  "liveshare.allowGuestDebugControl": true,
+  "terminal.integrated.scrollback": 25000,
+  "typescript.tsdk": "./node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[dotenv]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[ignore]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[dockerfile]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "editor.inlineSuggest.showToolbar": "always",
+  "cSpell.words": ["APPSFLYER", "tizen", "VIZIO"]
+}
